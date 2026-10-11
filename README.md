@@ -37,6 +37,12 @@
 
 <p align="center">
   <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaronanish-t/aaronanish-t/output/contributions-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aaronanish-t/aaronanish-t/output/contributions.svg" />
+    <img alt="Contributions this year" src="https://raw.githubusercontent.com/aaronanish-t/aaronanish-t/output/contributions.svg" />
+  </picture>
+  <br />
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaronanish-t/aaronanish-t/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aaronanish-t/aaronanish-t/output/github-snake.svg" />
     <img alt="Contribution snake" src="https://raw.githubusercontent.com/aaronanish-t/aaronanish-t/output/github-snake.svg" />

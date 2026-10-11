@@ -22,6 +22,22 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
+      - name: Generate contribution count
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOGIN: ${{ github.repository_owner }}
+        run: |
+          year=$(date -u +%Y)
+          count=$(gh api graphql \
+            -f query='query($login:String!,$from:DateTime!){user(login:$login){contributionsCollection(from:$from){contributionCalendar{totalContributions}}}}' \
+            -F login="$LOGIN" -F from="${year}-01-01T00:00:00Z" \
+            -q '.data.user.contributionsCollection.contributionCalendar.totalContributions')
+          write_svg() {
+            printf '<svg xmlns="http://www.w3.org/2000/svg" width="880" height="32" viewBox="0 0 880 32"><text x="440" y="22" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif" font-size="16" fill="%s">%s contributions in %s</text></svg>\n' "$2" "$count" "$year" > "dist/$1"
+          }
+          write_svg contributions.svg '#1f2328'
+          write_svg contributions-dark.svg '#f0f6fc'
+
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
