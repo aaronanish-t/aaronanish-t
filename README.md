@@ -34,3 +34,11 @@
 <p>
   <img src="https://streak-stats.demolab.com?user=aaronanish-t&theme=default&hide_border=true" alt="GitHub streak" />
 </p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaronanish-t/aaronanish-t/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aaronanish-t/aaronanish-t/output/github-snake.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/aaronanish-t/aaronanish-t/output/github-snake.svg" />
+  </picture>
+</p>
