@@ -27,6 +27,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LOGIN: ${{ github.repository_owner }}
         run: |
+          sudo chown -R "$(id -u)" dist # snk writes dist/ as root
           year=$(date -u +%Y)
           count=$(gh api graphql \
             -f query='query($login:String!,$from:DateTime!){user(login:$login){contributionsCollection(from:$from){contributionCalendar{totalContributions}}}}' \
