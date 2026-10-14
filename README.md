@@ -11,7 +11,7 @@
 
 ## Featured projects
 
-- **[CHRONOS-ZERO](https://github.com/aaronanish-t/chronos-zero)** · hackathon, in progress<br>
+- **[CHRONOS-ZERO](https://github.com/aaronanish-t/chronos-zero)** · in progress<br>
   Sits between an AI agent and the systems it changes. Each tool call runs inside a PostgreSQL savepoint, is checked against domain rules with the Z3 solver, then committed or rolled back, with a SHA-256 audit chain. I lead the kernel and state layer in a team of four.<br>
   <sub>Python · FastAPI · PostgreSQL · Z3 · Docker</sub>
 - **[Studeo](https://github.com/aaronanish-t/studeo)** · [live](https://studeo-eight.vercel.app) · [demo, no login](https://studeo-eight.vercel.app/preview)<br>
