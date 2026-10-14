@@ -3,13 +3,17 @@
 
 ## About me
 
-- 🔭 Working on **[Studeo](https://studeo-eight.vercel.app)**, a faster front-end for SRM's student portal that also finds when your friend group is free at the same time
+- 🔭 Building **[CHRONOS-ZERO](https://github.com/aaronanish-t/chronos-zero)** at a hackathon: a kernel that lets AI agents try a change on a database copy and checks it with Z3 before it goes live
+- 🛠️ Maintaining **[Studeo](https://studeo-eight.vercel.app)**, a faster front-end for SRM's student portal that also finds when your friend group is free at the same time
 - 🌱 Learning how transformers actually work by writing them without `nn.Transformer`
-- 🤝 Contributing to open source: [WXT](https://github.com/wxt-dev/wxt), [web-ext](https://github.com/mozilla/web-ext)
+- 🤝 Contributing to open source: [WXT](https://github.com/wxt-dev/wxt), [web-ext](https://github.com/mozilla/web-ext), [h3](https://github.com/h3js/h3)
 - 📫 Looking for **software engineering / ML internships**
 
 ## Featured projects
 
+- **[CHRONOS-ZERO](https://github.com/aaronanish-t/chronos-zero)** · hackathon, in progress<br>
+  Sits between an AI agent and the systems it changes. Each tool call runs inside a PostgreSQL savepoint, is checked against domain rules with the Z3 solver, then committed or rolled back, with a SHA-256 audit chain. I lead the kernel and state layer in a team of four.<br>
+  <sub>Python · FastAPI · PostgreSQL · Z3 · Docker</sub>
 - **[Studeo](https://github.com/aaronanish-t/studeo)** · [live](https://studeo-eight.vercel.app) · [demo, no login](https://studeo-eight.vercel.app/preview)<br>
   Syncs SRM attendance, marks and timetables; tells you how many classes you can still skip and intersects friends' timetables to find shared free hours.<br>
   <sub>Next.js · TypeScript · Prisma · PostgreSQL</sub>
