@@ -6,7 +6,7 @@
 - 🔭 Building **[CHRONOS-ZERO](https://github.com/aaronanish-t/chronos-zero)**: a kernel that lets AI agents try a change on a database copy and checks it with Z3 before it goes live
 - 🛠️ Maintaining **[Studeo](https://studeo-eight.vercel.app)**, a faster front-end for SRM's student portal that also finds when your friend group is free at the same time
 - 🌱 Learning how transformers actually work by writing them without `nn.Transformer`
-- 🤝 Contributing to open source: [WXT](https://github.com/wxt-dev/wxt), [web-ext](https://github.com/mozilla/web-ext), [h3](https://github.com/h3js/h3)
+- 🤝 Contributing to open source: PRs in [web-ext](https://github.com/mozilla/web-ext/pull/3899), [h3](https://github.com/h3js/h3/pull/1583), [Nitro](https://github.com/nitrojs/nitro/pull/4804) and [activist](https://github.com/activist-org/activist/pull/2453)
 - 📫 Looking for **software engineering / ML internships**
 
 ## Featured projects
