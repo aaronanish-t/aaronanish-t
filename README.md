@@ -6,7 +6,7 @@
 - 🔭 Building **[CHRONOS-ZERO](https://github.com/aaronanish-t/chronos-zero)**: a kernel that lets AI agents try a change on a database copy and checks it with Z3 before it goes live
 - 🛠️ Maintaining **[Studeo](https://studeo-eight.vercel.app)**, a faster front-end for SRM's student portal that also finds when your friend group is free at the same time
 - 🌱 Learning how transformers actually work by writing them without `nn.Transformer`
-- 🤝 Contributing to open source: PRs in [web-ext](https://github.com/mozilla/web-ext/pull/3899), [h3](https://github.com/h3js/h3/pull/1583), [Nitro](https://github.com/nitrojs/nitro/pull/4804) and [activist](https://github.com/activist-org/activist/pull/2453)
+- 🤝 Contributing to open source: merged in [activist](https://github.com/activist-org/activist/pull/2453); PRs open in [web-ext](https://github.com/mozilla/web-ext/pull/3899), [h3](https://github.com/h3js/h3/pull/1583), [Nitro](https://github.com/nitrojs/nitro/pull/4804) and [pdf.js](https://github.com/mozilla/pdf.js/pull/22215); root cause for a [pipx fix](https://github.com/pypa/pipx/issues/2155)
 - 📫 Looking for **software engineering / ML internships**
 
 ## Featured projects
