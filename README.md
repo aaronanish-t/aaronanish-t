@@ -6,7 +6,7 @@
 - 🔭 Building **[CHRONOS-ZERO](https://github.com/aaronanish-t/chronos-zero)**: a kernel that lets AI agents try a change on a database copy and checks it with Z3 before it goes live
 - 🛠️ Maintaining **[Studeo](https://studeo-eight.vercel.app)**, a faster front-end for SRM's student portal that also finds when your friend group is free at the same time
 - 🌱 Learning how transformers actually work by writing them without `nn.Transformer`
-- 🤝 Contributing to open source: merged in [activist](https://github.com/activist-org/activist/pull/2453) and [Nitro](https://github.com/nitrojs/nitro/pull/4804); PRs open in [activist](https://github.com/activist-org/activist/pull/2458), [web-ext](https://github.com/mozilla/web-ext/pull/3899) and [h3](https://github.com/h3js/h3/pull/1583); a [pdf.js accessibility fix](https://bugzilla.mozilla.org/show_bug.cgi?id=2083333) under review; root cause for a [pipx fix](https://github.com/pypa/pipx/issues/2155)
+- 🤝 Contributing to open source: 5 PRs merged in [activist](https://github.com/activist-org/activist/pull/2453) (4) and [Nitro](https://github.com/nitrojs/nitro/pull/4804); 8 PRs open in [Vite](https://github.com/vitejs/vite/pull/23944), [Nuxt](https://github.com/nuxt/nuxt/pull/36789), [PyTorch Ignite](https://github.com/pytorch/ignite/pull/3928), [web-ext](https://github.com/mozilla/web-ext/pull/3899), [extension-workshop](https://github.com/mozilla/extension-workshop/pull/2495) and [h3](https://github.com/h3js/h3/pull/1583); a [pdf.js accessibility fix](https://bugzilla.mozilla.org/show_bug.cgi?id=2083333) under review; root cause for a [pipx fix](https://github.com/pypa/pipx/issues/2155)
 - 📫 Looking for **software engineering / ML internships**
 
 ## Featured projects
@@ -26,6 +26,9 @@
 - **[CommitCamp](https://github.com/aaronanish-t/commitcamp)**<br>
   A place to make your first open-source contribution: live good-first-issues, plus coding challenges where CI checks every solution PR against the tests.<br>
   <sub>Next.js · TypeScript · GitHub Actions</sub>
+- **[Claimcheck](https://github.com/aaronanish-t/claimcheck)**<br>
+  A browser extension that shows whether a GitHub issue is already claimed or has a PR, and what the repo's AI and PR policy says.<br>
+  <sub>JavaScript · Browser extension</sub>
 
 ## Tech stack
 
